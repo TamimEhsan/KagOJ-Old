@@ -1,0 +1,97 @@
+.problem-card {
+  box-shadow: 0 0px 10px 0 rgba(0, 0, 255, 0.1);
+  border-radius: 10px;
+  padding-top: 25px;
+  overflow: hidden;
+  cursor: pointer;
+  .top-container {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    padding: 0.5rem 0;
+    .top-left {
+      width: 70%;
+      .problem-title {
+        font-weight: bold;
+        font-size: 1.6em;
+        margin-top: 5px;
+        margin-right: 40px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+      }
+      .problem-serial {
+        color: #b2cbfe;
+        font-weight: bold;
+        font-size: 1.8em;
+      }
+    }
+    .top-right {
+      width: 30%;
+      height: 10vh;
+      margin-left: auto;
+      text-align: center;
+    }
+    .top-right img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+
+  .logo img {
+    width: 100%;
+    padding: 20px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+    display: none;
+  }
+  .left-problem-card-container {
+    background-color: white;
+    margin-top: 16px;
+    border-radius: 26px;
+    cursor: pointer;
+  }
+
+  .left-problem-card-logo img {
+    width: 100%;
+
+    padding: 20px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+
+    display: none;
+  }
+
+  .left-problem-card-divider {
+    width: 100%;
+    height: 1px;
+    background-color: #94a2bf44;
+    margin-top: 10px;
+
+    display: none;
+  }
+
+  .left-problem-card-bottom-container {
+    padding: 20px;
+  }
+
+  .left-problem-card-title {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+
+  .left-problem-card-description {
+    font-size: 0.9em;
+    color: #707070;
+    margin-top: 10px;
+  }
+
+  .left-problem-card-bottom {
+    margin-top: 20px;
+  }
+
+  .left-problem-card-bottom-level {
+    margin-left: 10px;
+  }
+}

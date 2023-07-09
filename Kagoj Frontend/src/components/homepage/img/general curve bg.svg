@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1003.812" height="1030.843" viewBox="0 0 1003.812 1030.843">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_3179" data-name="Path 3179" d="M-4360,1114.1V2144.947h1003.812V1139.875Z" transform="translate(4360)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_8" data-name="Mask Group 8" transform="translate(0 -1114.104)" clip-path="url(#clip-path)">
+    <path id="general_curved_bg" data-name="general curved bg" d="M-4451.617,1139.675s1103.981,68.839,1002,364.594-922.958,63.74-752.135,433.433-372.243,0-372.243,0l135.129-782.73Z" transform="translate(4360)" fill="rgba(225,235,255,0.51)"/>
+  </g>
+</svg>

@@ -1,0 +1,240 @@
+.cards {
+  text-align: center;
+}
+.cards-plan{
+  color: #081240;
+  font-weight:bold ;
+  font-size: 40px;
+  text-align: left;
+  margin-left:70px ;
+  padding-top: 40px;
+
+}
+.cards-best{
+  color: #848199;
+  font-weight: bold;
+  font-size: 27px;
+  text-align: left;
+  margin-left: 70px;
+
+}
+
+@media (max-width:640px) {
+  .cards-plan{
+    font-size: 30px;
+    margin-left:70px ;
+  }
+  .cards-best{
+    font-size: 20px;
+    margin-left:70px ;
+    margin-right: 70px;
+    text-align: center;
+  }
+}
+
+
+.card-body-pricing {
+  margin: 0 0.3em;
+  width: 330px;
+  height: 460px;
+  border: none;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  background-color: white;
+  border-radius: 15px;
+  margin-top: 300px;
+
+}
+.card-body-pricing:hover {
+  transform: scale(1.08);
+  margin: 0 0.3em;
+  width: 330px;
+  height: 460px;
+  border: none;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  background-color: #536dfe;
+  border-radius: 15px;
+
+  margin-top: 300px;
+}
+.card-body-pricing p {
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #221d4f;
+  text-align: left;
+}
+.card-body-pricing:hover p {
+  padding-top: 40px;
+  padding-left: 40px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+.card-body-pricing span {
+  color: #a9a7b7;
+  padding-top: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-body-pricing:hover span {
+  color: white;
+  padding-top: 50px;
+  padding-left: 10px;
+  font-size: 20px;
+}
+.card-body-pricing h5 {
+  color: #848199;
+  font-weight: normal;
+  padding-top: 10px;
+  font-size: 17px;
+  text-align: left;
+}
+.card-body-pricing:hover h5 {
+  color: white;
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 17px;
+  text-align: left;
+}
+.card-body-pricing:hover .pricing-btn {
+  color: #536dfe;
+  width: 199px;
+  height: 45px;
+  margin-top: 50px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: none;
+}
+.card-pricing {
+  display: flex;
+  margin-top: -234px;
+  width: 18 rem;
+  margin-left: 70px;
+}
+@media only screen and (max-width: 1050px) {
+  .card-pricing {
+    display: inline-table;
+
+    width: 18 rem;
+    margin-top: 100px;
+  }
+  .card-body-pricing {
+    margin: 0px 30px;
+    width: 330px;
+    height: 460px;
+    border: none;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+  .card-body-pricing:hover {
+    margin: 0px 30px;
+    width: 330px;
+    height: 460px;
+    border: none;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: #536dfe;
+    border-radius: 15px;
+
+    margin-top: 30px;
+  }
+}
+.popular {
+  background-color: #4031b3;
+  width: 125px;
+  height: 29px;
+  color: b;
+  border-radius: 10px;
+
+  color: white;
+  text-align: center;
+  margin-left: 165px;
+  margin-top: 37px;
+}
+@media only screen and (max-width: 350px) {
+  .card-body-pricing {
+    margin: 0px 20px;
+    width: 250px;
+    height: 460px;
+    border: none;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: white;
+    border-radius: 15px;
+    margin-top: 30px;
+  }
+  .card-body-pricing:hover {
+    margin: 0 0.3em;
+    width: 250px;
+    height: 460px;
+    border: none;
+    box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+    background-color: #536dfe;
+    border-radius: 15px;
+
+    margin-top: 30px;
+  }
+  .card-body-pricing p {
+    padding-top: 25px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #221d4f;
+    text-align: left;
+  }
+  .card-body-pricing:hover p {
+    padding-top: 0px;
+    padding-left: 40px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    text-align: left;
+  }
+  .card-body-pricing span {
+    color: #a9a7b7;
+    padding-top: 29px;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .card-body-pricing:hover span {
+    color: white;
+    padding-top: 29px;
+    padding-left: 10px;
+    font-size: 20px;
+  }
+  .popular {
+    background-color: #4031b3;
+    width: 125px;
+    height: 29px;
+
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    margin-left: 99px;
+    margin-top: 37px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .card-pricing {
+    display: inline;
+
+    width: 18 rem;
+    margin-top: 100px;
+  }
+
+
+}
+.pricing-btn {
+  color: #f496d1;
+  width: 199px;
+  height: 45px;
+  margin-top: 50px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: none;
+  /* margin-left: 60.5px; */
+}

@@ -1,0 +1,113 @@
+.footer {
+  width: 100%;
+  height: 70vh;
+  background-color: #536dfe;
+  display: flex;
+}
+@media only screen and (max-width: 850px) {
+  .footer {
+    width: 100%;
+    height: 150vh;
+
+    background-color: #536dfe;
+    display: block;
+  }
+}
+.left {
+  display: flex;
+  align-items: left;
+  margin-left: 0px;
+  padding-top: 50px;
+  padding-left: 92px;
+  width: 90%;
+}
+.left p {
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+
+  font-size: 35px;
+  font-weight: bold;
+}
+.left-down {
+  max-width: 528px;
+  width: 90%;
+  padding-left: 90px;
+}
+.left-down p {
+  color: white;
+  margin-top: 20px;
+
+  font-size: 23px;
+  font-weight: normal;
+  text-align: left;
+}
+@media only screen and (max-width: 550px) {
+  .left-down p {
+    color: white;
+    margin-top: 20px;
+
+    font-size: 18px;
+    font-weight: normal;
+    text-align: left;
+  }
+  .left p {
+    color: white;
+    margin-top: 30px;
+
+    font-size: 33px;
+    font-weight: bold;
+  }
+}
+.right {
+  padding-left: 100px;
+}
+.right p {
+  margin-top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+.right h5 {
+  text-align: left;
+  color: white;
+}
+.rightMost {
+  padding-left: 88px;
+  align-items: left;
+}
+.rightMost p {
+  margin-top: 90px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: left;
+}
+.rightMost h5 {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+}
+.rightMost a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.media {
+  display: flex;
+}
+@media only screen and (max-width: 500px) {
+  .left {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0px;
+  }
+  .left-down {
+    padding-left: 60px;
+  }
+  .left-down p {
+    text-align: center;
+  }
+}

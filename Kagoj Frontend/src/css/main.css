@@ -1,0 +1,145 @@
+.main-container {
+  display: flex;
+  height: 100vh;
+}
+
+.left-container {
+  width: 25vw;
+}
+
+.mid-container {
+  width: 50vw;
+  height: 100vh;
+  background-color: #f3f7fd;
+}
+
+.right-container {
+  width: 25vw;
+}
+
+.main-header {
+  background-color: white;
+  height: 75px;
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.levels-Container {
+  width: 100%;
+  display: flex;
+}
+
+.level-container-root {
+  display: inline-block;
+  border: solid;
+  border-color: #3d7eff;
+  border-width: 2px;
+  border-radius: 10px;
+  margin-left: 20px;
+}
+
+.level-container {
+  display: flex;
+}
+
+.level-container div {
+  padding: 6px 12px;
+  font-size: 1em;
+}
+
+.level-inactive {
+  background-color: #00000000;
+  color: #3d7eff;
+  border-radius: 0px;
+  cursor: pointer;
+}
+
+.level-active {
+  border-radius: 6px;
+  background-color: #3d7eff;
+  color: #ffffff;
+}
+.mid-body-line {
+  display: block;
+  width: 100%;
+  height: 6px;
+  background-color: #f3f7fd;
+}
+.mid-body {
+  background-color: white;
+
+  margin-top: 2px;
+  overflow: scroll;
+  height: calc(100% - 85px);
+}
+
+.main-image-container {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  background-color: #eaedf4;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.main-image-xp:hover {
+  color: rgb(235, 42, 42);
+}
+
+.main-image-xp {
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.main-image-image img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+
+@media (max-width: 1000px) {
+  .left-container {
+    display: none;
+  }
+  .right-container {
+    width: 33vw;
+  }
+  .mid-container {
+    width: 67vw;
+   
+    
+  }
+
+}
+@media (max-width:750px) {
+    .mid-container{
+        width:100vw;
+        height: 100%;
+    }
+    .right-container{
+        display: none;
+    }
+    .mid-body{
+      height: 100%;
+    }
+    .main-container{
+      height: 100%;
+    }
+    .levels-Container {
+      font-size: 10px;
+      font-weight: bold;
+    }
+    .main-image-container {
+      padding: 5px 3px;
+    }
+    .main-image-image img{
+      width:30px;
+      height: 30px;
+    }
+    .main-image-xp {
+      font-size: 14px;
+    }
+}

@@ -1,0 +1,142 @@
+.left-main-container{
+    background-color: #F3F7FD;
+    height:100vh;
+    overflow-y: scroll;
+    padding: 8%;
+}
+
+.left-top,.left-list-container-header,.left-problem-card-bottom,.left-search-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.left-top-icon img{
+    width:160px;
+    cursor: pointer;
+    transform: translateY(-7px);
+}
+
+.left-top-name{
+    margin-left: 10px;
+    font-weight: bold;
+    color:#3D7EFF;
+    font-size: 1.5em;
+    margin-bottom: 2px;
+}
+
+.left-top-sort-icon{
+    margin-left:auto;
+}
+
+.left-top-sort-icon img{
+    width:40px;
+    height:40px;
+}
+
+.left-list-container-header-show-all{
+    margin-left:auto;
+    color:#3D7EFF;
+    font-size: 0.9em;
+    border: solid;
+    border-width: 2px;
+    border-radius: 28px;
+    padding: 4px 12px;
+
+    display: none;
+}
+
+.left-list-container-header-title{
+    color:#3D7EFF;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: -20px;
+}
+
+.left-list-container-list{
+    padding-top: 10px;
+}
+
+.left-list-container{
+    margin-top: 40px;
+}
+
+.left-problem-card-container{
+    background-color: white;
+    margin-top: 16px;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+.left-problem-card-logo img{
+    width: 100%;
+
+    padding: 20px;
+    border-top-left-radius: 26px;
+    border-top-right-radius: 26px;
+
+    display: none;
+}
+
+.left-problem-card-divider{
+    width: 100%;
+    height: 1px;
+    background-color: #94A2BF44;
+    margin-top: 10px;
+
+    display: none;
+}
+
+.left-problem-card-bottom-container{
+    padding: 20px;
+}
+
+.left-problem-card-title{
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.left-problem-card-description{
+    font-size: 0.9em;
+    color: #707070;
+    margin-top: 10px;
+}
+
+.left-problem-card-bottom{
+    margin-top: 20px;
+}
+
+.left-problem-card-bottom-level{
+    margin-left: 10px;
+}
+
+.left-search-container{
+    background: #E9F1FD;
+    padding: 10px 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 28px;
+    margin-bottom: 40px;
+    position: relative;
+
+    display: none;
+
+}
+
+.left-search-image{
+    margin-left: auto;
+}
+
+.left-search-container input{
+    background: #00000000;
+    border: none;
+    outline: none;
+    font-size: 1.1em;
+    width: 100%;
+}
+
+@media (min-width:1000px) {
+    .left-pan-right{
+        display: none;
+    }
+}

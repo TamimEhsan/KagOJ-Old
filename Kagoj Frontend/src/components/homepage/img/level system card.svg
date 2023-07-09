@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="529" height="169" viewBox="0 0 529 169">
+  <g id="Group_320" data-name="Group 320" transform="translate(-765 -468)">
+    <g id="Rectangle_976" data-name="Rectangle 976" transform="translate(765 468)" fill="#fff" stroke="#50cb88" stroke-width="3">
+      <rect width="529" height="169" rx="16" stroke="none"/>
+      <rect x="1.5" y="1.5" width="526" height="166" rx="14.5" fill="none"/>
+    </g>
+    <text id="Level_System" data-name="Level System" transform="translate(882 511)" fill="#50cb88" font-size="28" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">Level System</tspan></text>
+    <g id="Group_319" data-name="Group 319" transform="translate(795 523.338)">
+      <path id="Path_3183" data-name="Path 3183" d="M17,28H5a3,3,0,0,0-3,3V46H20V31A3,3,0,0,0,17,28ZM38,10H26a3,3,0,0,0-3,3V46H41V13A3,3,0,0,0,38,10Zm21,9H47a3,3,0,0,0-3,3V46H62V22A3,3,0,0,0,59,19Z" transform="translate(-2 14)" fill="#50cb88"/>
+      <path id="Path_3184" data-name="Path 3184" d="M18,2,15,8,9,8.876,14,13l-1.563,7L18,16l5.562,4L22,13l5-4.125L21,8Z" transform="translate(12 -2)" fill="#50cb88"/>
+    </g>
+    <text id="Level_1_Suitable_for_Grade_3_4_and_5" data-name="Level 1   Suitable for Grade 3, 4 and 5" transform="translate(915.815 542.863)" fill="#081240" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0" xml:space="preserve">Level 1   Suitable for Grade 3, 4 and 5</tspan></text>
+    <text id="Level_2_Suitable_for_Grade_5_and_6" data-name="Level 2  Suitable for Grade 5 and 6" transform="translate(915.815 575.678)" fill="#081240" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0" xml:space="preserve">Level 2  Suitable for Grade 5 and 6</tspan></text>
+    <text id="Level_3_Suitable_for_Grade_6_7_and_8" data-name="Level 3   Suitable for Grade 6, 7 and 8" transform="translate(915.815 608.494)" fill="#081240" font-size="18" font-family="Montserrat-Regular, Montserrat"><tspan x="0" y="0" xml:space="preserve">Level 3   Suitable for Grade 6, 7 and 8</tspan></text>
+    <path id="Path_1785" data-name="Path 1785" d="M58.815,48A10.815,10.815,0,1,0,69.63,58.815,10.814,10.814,0,0,0,58.815,48ZM57.146,62.647a.717.717,0,0,1-.458.229.75.75,0,0,1-.463-.234L53.314,59.73l.926-.926,2.454,2.454,6.489-6.536.91.941Z" transform="translate(834 478.233)" fill="#50cb88"/>
+    <path id="Path_3197" data-name="Path 3197" d="M58.815,48A10.815,10.815,0,1,0,69.63,58.815,10.814,10.814,0,0,0,58.815,48ZM57.146,62.647a.717.717,0,0,1-.458.229.75.75,0,0,1-.463-.234L53.314,59.73l.926-.926,2.454,2.454,6.489-6.536.91.941Z" transform="translate(834 510.5)" fill="#50cb88"/>
+    <path id="Path_3198" data-name="Path 3198" d="M58.815,48A10.815,10.815,0,1,0,69.63,58.815,10.814,10.814,0,0,0,58.815,48ZM57.146,62.647a.717.717,0,0,1-.458.229.75.75,0,0,1-.463-.234L53.314,59.73l.926-.926,2.454,2.454,6.489-6.536.91.941Z" transform="translate(834 542.767)" fill="#50cb88"/>
+  </g>
+</svg>

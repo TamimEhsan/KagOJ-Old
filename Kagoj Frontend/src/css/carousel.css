@@ -1,0 +1,350 @@
+.carousel{
+  text-align: center;
+
+}
+
+
+.cards-wrapper {
+    display:flex;
+    justify-content: left;
+    margin-left: 61px;
+    
+  }
+  .card img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .card {
+  margin: 0 1.7em;
+  width:600px;
+  height:300px;
+  border:3px solid palevioletred;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  
+  border-radius: 15px;
+}
+.carousel-inner {
+  padding: 1em;
+}
+btn-1{
+    color:black;
+}
+.carousel-control-prev-icon {
+
+    margin-top: 459px;
+    width: 60px;
+    height: 60px;
+    background-image: url('../components/homepage/img/prev.svg');
+    background-color: white;
+    background-size: 70%;
+    border:2px solid #fd5183;
+    border-radius: 50px;
+
+}
+.carousel-control-next-icon {
+
+  margin-top: 459px;
+  width: 60px;
+  height: 60px;
+  background-image: url('../components/homepage/img/next.svg');
+  background-color: #fd5183;
+  background-size: 70%;
+
+  border-radius: 50px;
+}
+.carousel-indicators {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
+    
+  
+    margin-top: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 17px; 
+    height: 17px; 
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgb(129, 120, 120);
+    background-clip: padding-box;
+    border: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+    border-radius: 100%;
+}
+.carousel-indicators .active{
+    background-color: rgb(243, 4, 132);
+}
+
+@media only screen and (max-width: 650px) {
+  .cards-wrapper {
+    display: inline-table;
+    justify-content: left;
+    margin-left: 61px;
+    
+  }
+  .card {
+    width:400px;
+    height:450px;
+    margin-top: 20px;
+  
+   }
+   .carousel-control-prev-icon {
+    margin-top: 960px;
+    margin-left: 20px;
+    width: 36px;
+    height: 36px;
+    background-image: url('../components/homepage/img/prev.svg');
+    background-color: white;
+    background-size: 70%;
+    border:2px solid #fd5183;
+    border-radius: 50px;
+}
+.carousel-control-next-icon {
+  margin-top: 960px;
+  margin-right: 20px;
+  width: 36px;
+  height: 36px;
+  background-color: #fd5183;
+  border-radius: 50px;
+}
+
+}
+@media only screen and (max-width: 450px) {
+
+  .cards-wrapper {
+    display: inline;
+    justify-content: left;
+ 
+    
+  }
+
+}
+@media only screen and (max-width: 1100px) {
+  .card {
+   width:300px;
+   height:460px;
+  }
+}
+@media only screen and (max-width: 360px) {
+  .card {
+   width:240px;
+   height:460px;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .card {
+   width:200px;
+   height:460px;
+  }
+}
+
+.img-pic{
+
+  width:70px;
+  height: 70px;
+  margin-top:30px;
+  margin-left:30px;
+  border-radius: 50%;
+
+}
+@media only screen and (max-width: 750px) {
+  .img-pic{
+
+    width:70px;
+    height: 70px;
+    margin-top:30px;
+    margin-left:0px;
+    border-radius: 50%;
+  
+  }
+}
+  .name-desg{
+
+    display:block;
+    padding-left:30px;
+    padding-top:30px;
+  }
+  .card-inner{
+
+    display:flex;
+  }
+
+  @media only screen and (max-width: 750px) {
+    .card-inner {
+   display: block;
+    }
+  }
+  
+  .name-desg .name{
+    text-align:left;
+    margin-top: top 38px;
+    color:#081240;
+    font-size:30px;
+    font-weight:bold;
+  }
+  @media only screen and (max-width: 780px) {
+    .name-desg .name{
+      text-align:left;
+      margin-top: top 35px;
+      color:#081240;
+      font-size:18px;
+      font-weight:bold;
+    }
+  }
+  @media only screen and (max-width: 710px) {
+    .name-desg .name{
+      text-align:left;
+      margin-top: top 38px;
+      color:#081240;
+      font-size:17px;
+      font-weight:bold;
+    }
+  }
+  @media only screen and (max-width: 550px) {
+    .name-desg .name{
+      text-align:left;
+      margin-top: top 38px;
+      color:#081240;
+      font-size:15px;
+      font-weight:bold;
+    }
+   
+  }
+  .card-text{
+    color:#081240;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+
+
+  }
+  @media only screen and (max-width: 1100px) {
+    .card-text{
+      color:#081240;
+      font-size: 17px;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 10px;
+  
+  
+    }
+  }
+  @media only screen and (max-width: 750px) {
+    .card-text{
+      color:#081240;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 10px;
+  
+  
+    }
+  }
+  
+  @media only screen and (max-width: 550px) {
+    .card-text{
+      color:#081240;
+      font-size: 15px;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 10px;
+  
+  
+    }
+  }
+  @media only screen and (max-width: 465px) {
+    .card-text{
+      color:#081240;
+      font-size: 12px;
+      font-weight: bold;
+      text-align: left;
+      margin-left: 10px;
+  
+  
+    }
+  }
+
+  .designation{
+
+    color:gray;
+    font-size:16px;
+    text-align: left;
+    margin-top:-18px;
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 650px) {
+    .designation{
+
+      color:gray;
+      font-size:12px;
+      text-align: left;
+
+      font-weight: bold;
+      
+    }
+  }
+  @media only screen and (max-width: 465px) {
+    .designation{
+
+      color:gray;
+      font-size:10px;
+      text-align: left;
+   
+      font-weight: bold;
+      
+    }
+  }
+  .homepage-para{
+    color:#221D4F;
+    font-weight: bold;
+    font-size:37px ;
+    text-align:left;
+    margin-left:85px;
+    margin-top:100px;
+
+  }
+  @media (max-width:640px) {
+
+    .homepage-para{
+      font-size: 30px;
+      margin-left:30px;
+      margin-right: 30px;
+     
+      text-align: center;
+     
+    }
+    
+  }
+  @media only screen and (max-width: 365px) {
+    .homepage-para{
+      color:#221D4F;
+      font-weight: bold;
+      font-size:30px ;
+      text-align:center;
+      margin-left:0px;
+      margin-top:100px;
+  
+    }
+  }
+
+.carousel img{
+  width: auto;
+}

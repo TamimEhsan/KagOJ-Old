@@ -1,0 +1,11 @@
+.hbox {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+.flex-center{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

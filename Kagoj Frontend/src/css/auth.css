@@ -1,0 +1,245 @@
+.auth-container{
+    display: flex;
+}
+
+.auth-left-container{
+    height: 100vh;
+    width: 53.5vw;
+    display: flex;
+    justify-content: center;
+}
+
+.auth-left-container img{
+    position: absolute;
+    left: 0;
+    height: 100vh;
+    width: 53.5vw;
+    z-index: 1;
+}
+
+.auth-left-title{
+    width: 50vw;
+    font-size: 2em;
+    margin-top: 50px;
+    color:white;
+    z-index: 2;
+}
+
+.auth-right-container{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 46.5vw;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.auth-right-inner-container{
+
+}
+
+.auth-right-title{
+    font-size: 2em;
+    width: 32vw;
+    text-align: center;
+}
+
+.auth-right-blue-divider{
+    height: 5px;
+    width: 160px;
+    align-self: center;
+    margin-top: 4px;
+    margin-left: calc(50% - 80px);
+}
+
+
+.login-container{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.auth-text{
+    border: 2px solid #DFDFDF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 75%;
+    height:53px;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+.auth-drawable-left{
+    margin-left: 8px;
+    margin-right: 8px;
+    height: 30px;
+    width: 30px;
+}
+
+.auth-verticle-divider{
+    width: 2px;
+    background-color:#DFDFDF ;
+    height: 53px;
+}
+
+.auth-text input{
+    border: none;
+    outline: none;
+    font-size: 1em;
+    margin-left: 8px;
+    width: 100%;
+}
+
+::placeholder{
+    color: #00000088;
+}
+
+.auth-drawable-right{
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+.auth-action-container{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.auth-action-container button{
+    margin-left: auto;
+    background-color: #3A7CFF;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 6px;
+    padding: 8px 35px;
+    cursor: pointer;
+}
+
+.auth-forgot-container{
+    width: 75%;
+    display: flex;
+    margin-top: 16px;
+}
+
+.auth-forgot-container span{
+    margin-left: auto;
+    color: #00000088;
+}
+
+.auth-different{
+    color: #3A7CFF;
+    margin-top: 36px;
+}
+
+.auth-different-button{
+    cursor: pointer;
+    background-color: #50CB88;
+    border: none;
+    color: white;
+    font-size: 1em;
+    border-radius: 6px;
+    padding: 8px 52px;
+    margin-top: 10px;
+}
+
+.auth-or-container{
+    width: 75%;
+    margin-left: 12.5%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.auth-or-divider{
+    height: 2px;
+    width:100%;
+    background-color: #00000044;
+}
+
+.auth-or{
+    color:#00000088;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+.auth-google-container{
+    display: flex;
+    align-items: center;
+    width: 75%;
+    margin-left: 12.5%;
+    background-color:#C42D23;
+    border-radius: 6px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.auth-google-left-container{
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 2px;
+}
+
+.auth-google-container img{
+    height: 75%;
+    margin-top: 12.5%;
+    width: 75%;
+}
+
+.auth-google-right-container{
+    width: 100%;
+    color: white;
+    background-color:#F44334 ;
+    padding: 8px 10px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    text-align: center;
+}
+
+.auth-home-container{
+    cursor: pointer;
+    position: absolute;
+    left: 53.5vw;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.auth-home-container img{
+    width:30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+@media (max-width:1000px) {
+    .auth-container{
+        justify-content: center;
+        height: 100%;
+    }
+    .auth-home-container{
+        left:0vw;
+    }
+    .auth-right-title{
+        width:100%;
+    }
+    .auth-text{
+        width: 100%;
+    }
+    .auth-action-container{
+        width: 100%;
+    }
+    .auth-forgot-container{
+        width: 100%;
+    }
+    .auth-right-container{
+        width: 100%;
+    }
+    .auth-left-container{
+        display: none;
+    }
+
+}

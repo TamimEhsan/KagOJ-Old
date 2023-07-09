@@ -1,0 +1,56 @@
+.problem-title{
+    color:#081240;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.problem-level-container{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.problem-level-level{
+    margin-left: 10px;
+    color: #FF2D2D;
+}
+
+.problem-level-icon img{
+    width:27px;
+}
+
+.problem-body{
+    margin-top: 10px;
+    color: #081240;
+
+}
+
+.latexContainer *{
+    font: inherit;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.problem-body img{
+    width:50%;
+    margin-left: 25%;
+    margin-top:10px;
+    margin-bottom:10px;
+    display: block;
+}
+
+.problem-statement{
+    background-color: #3D7EFF;
+    color:white;
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+.problem-statement img{
+    width:17px;
+    margin-right:10px;
+}
+
+
+
+

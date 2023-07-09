@@ -1,0 +1,130 @@
+.wrapper-progressBar {
+    width: 100%
+}
+
+.progressBar {
+}
+
+.progressBar li {
+    list-style-type: none;
+    float: left;
+    width: 33%;
+    position: relative;
+    text-align: center;
+}
+
+.progressBar li:before {
+    content: " ";
+    line-height: 30px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    margin: 0 auto 10px;
+    background-color: white
+}
+
+.progressBar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    background-color: #ddd;
+    top: 15px;
+    left: -50%;
+    z-index: -1;
+}
+
+.progressBar li:first-child:after {
+    content: none;
+}
+
+.progressBar li.active {
+    color: dodgerblue;
+}
+
+.progressBar li.active:before {
+    border-color: dodgerblue;
+    background-color: dodgerblue
+}
+
+.progressBar .active:after {
+    background-color: dodgerblue;
+}
+
+.stepper-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.step-current{
+    background-color: #707070;
+    color:white;
+    width: 24px;
+    height:24px;
+    padding: 15px;
+    display: flex;
+    border-radius: 100%;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+    border-color: #ffffff;
+    border-width: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0 0 0 3.5px #7e7e7e;
+    z-index: 2;
+}
+
+.step-pending{
+    background-color: #3D7EFF;
+    color:white;
+    font-weight: bold;
+    width: 22px;
+    height:22px;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+.step-success{
+    background-color: #00a113;
+}
+
+.step-error{
+    background-color: #ff0000;
+}
+
+.stepper-line{
+    margin-bottom: -31px;
+    margin-left: 15px;
+    border: solid;
+    border-color: #3D7EFF;
+    border-width: 1px;
+    z-index: 1;
+    margin-right: 15px;
+}
+
+.badgeme{
+    background-color: #3D7EFF;
+    color:white;
+    font-weight: bold;
+    text-size: 10px;
+    height:22px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+  
+    z-index: 2;
+}
+

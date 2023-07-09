@@ -1,0 +1,105 @@
+.right-main-container {
+  background-color: #f3f7fd;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+}
+.achievement-header {
+  margin-top: -20px;
+}
+
+.achievement-title {
+  font-weight: bold;
+  color: #3d7eff;
+  font-size: 1.4em;
+  margin-bottom: 10px;
+  @media (max-width: 1100px) {
+    font-size: 1.2em;
+  }
+}
+.achievement-button {
+  display: block;
+  background-color: #3d7eff;
+  color: white;
+  border: none;
+  margin-top: 16px;
+  padding: 8px 20px;
+  border-radius: 3px;
+  transition: all 300ms ease-in-out;
+}
+.achievement-button:hover {
+  opacity: 0.7;
+}
+
+.achievement-score-heading {
+  font-weight: bold;
+  color: #3d7eff;
+  font-size: 1.4em;
+  margin-top: 40px;
+  @media (max-width: 1100px) {
+    font-size: 1.2em;
+  }
+}
+
+.achievement-icon {
+  margin-left: auto;
+}
+
+.achievement {
+  &-statistics {
+    width: 90%;
+    margin: auto;
+    &-levelbar {
+      margin: 10px 0px;
+      display: flex;
+      > p {
+        background-color: white;
+        flex: 1;
+        padding: 5px 10px;
+        color: #8b8d9b;
+        font-weight: 500;
+        cursor: pointer;
+        white-space: nowrap;
+
+        text-align: center;
+        border-top: 1px solid #3d7eff;
+        border-bottom: 1px solid #3d7eff;
+      }
+      > p:first-child {
+        border-left: 1px solid #3d7eff;
+        border-radius: 3px 0px 0px 3px;
+      }
+      p:last-child {
+        border-right: 1px solid #3d7eff;
+        border-radius: 0px 3px 3px 0px;
+      }
+      .activelevel {
+        background-color: #3d7eff;
+        color: white;
+      }
+    }
+    &-cards {
+      margin-top: 20px;
+      .scorebar {
+        border-radius: 3px;
+        border: 1px solid #3d7eff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        margin: 10px 0px;
+        padding: 10px 10px;
+        color: rgba(44, 47, 59, 1);
+        > p {
+          font-weight: bold;
+        }
+        > h3 {
+          font-weight: 700;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,249 @@
+.homepage-middlebody {
+  &-cards {
+  
+    @include breakpoint-down(small){
+      margin-bottom: 16px;
+    }
+
+
+    &-singleodd {
+      height: 600px;
+      margin-top: 0px;
+    
+
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      align-items: center;
+
+      &:first-child{
+        margin-top: 100px;
+      }
+
+      @media (max-width:1000px) {
+        margin: 0px 0px;
+        height: 300px;
+      }
+     
+      @include breakpoint-down(small) {
+        height: 270px;
+        margin-right:10px;
+        &:first-child{
+          margin-top: 25px;
+        }
+
+      }
+      &-img {
+        grid-column: 1/2;
+        &-withoutbg{
+          >img{
+            width:80%;
+          }
+        }
+
+        > img {
+       
+        }
+        @include breakpoint-down(small) {
+         
+          > img {
+          
+          }
+        }
+      }
+
+      &-text {
+        grid-column: 2/3;
+        color: #081240;
+        justify-self: center;
+        font-size: 25px;
+        margin: 0px 120px;
+        margin-bottom: 150px;
+        
+        @media(max-width:1000px){
+          font-size: 16px;
+          margin: 0px 0px;
+          margin-bottom: 20px;
+        }
+        @include breakpoint-down(small){
+          font-size: 10px;
+          margin-left: 15px;
+          >h2{
+            font-size: 18px;
+            
+          }
+        }
+        > h2 {
+          margin:20px 0px 10px 0px;
+        }
+        > p {
+          margin-bottom: 30px;
+
+        }
+
+        &-checkmarks {
+
+          
+          &-checkmarktext {
+           display: flex;
+           margin-bottom: 20px;
+           align-items: center;
+            > img {
+              width: 27px;
+              @media(max-width:1000px){
+                width: 15px;
+              }
+            }
+            > p {
+              margin-left: 10px;
+              margin-bottom: 0px;
+              
+              
+            }
+          }
+        }
+        @include breakpoint-down(small) {
+         
+
+          > h2 {
+
+          }
+          > p {
+      
+          }
+          p {
+        
+          }
+        }
+      }
+    }
+    &-singleeven {
+      height: 600px;
+      
+      display: grid;
+      grid-template-columns: 2fr 2fr;
+    
+      align-items: center;
+      margin-top: 230px;
+      &:not(:last-child){
+        margin:120px 0px;
+      }
+
+      @media (max-width:1000px) {
+        margin: 0px 0px;
+        height: 400px;
+        &:not(:last-child){
+          margin:0px 0px;
+        }
+        &:last-child{
+          margin-top: 100px;
+        }
+      }
+     
+      @include breakpoint-down(small) {
+        height: 270px;
+      
+          margin:0px 0px;
+          &:last-child{
+            margin-top: 0px;
+          }
+        
+      }
+      &-img {
+        grid-column: 2/3;
+      
+        &-withoutbg{
+         display: flex;
+         justify-content: center;
+          >img{
+            width:80%;
+            
+          }
+        }
+
+        > img {
+          
+        }
+        @include breakpoint-down(small) {
+         
+          > img {
+
+          }
+        }
+      }
+
+      &-text {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        color: #081240;
+        justify-self: center;
+        font-size: 25px;
+        margin: 0px 120px;
+        margin-bottom: 150px;
+        @media(max-width:1000px){
+          font-size: 16px;
+          margin: 0px 0px;
+          margin-bottom: 20px;
+        }
+        
+        @include breakpoint-down(small){
+          font-size: 10px;
+          margin-left: 29px;
+          >h2{
+            font-size: 18px;
+            
+          }
+        }
+
+        > h2 {
+          margin:20px 0px 10px 0px;
+        }
+        > p {
+          margin-bottom: 30px;
+          @media(max-width:1000px){
+            margin-bottom: 20px;
+          }
+
+        }
+
+        &-checkmarks {
+
+          
+          &-checkmarktext {
+           display: flex;
+           margin-bottom: 20px;
+           align-items: center;
+            > img {
+              width: 27px;
+              @media(max-width:1000px){
+                width: 15px;
+              }
+              
+            }
+            > p {
+              margin-left: 10px;
+              margin-bottom: 0px;
+            }
+          }
+        }
+        @include breakpoint-down(small) {
+         
+
+          > h2 {
+
+          }
+          > p {
+      
+          }
+          p {
+        
+          }
+        }
+      }
+    }
+
+  }
+}
+
+.footerandcarousel{
+
+}

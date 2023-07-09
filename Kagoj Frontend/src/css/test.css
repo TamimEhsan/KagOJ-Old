@@ -1,0 +1,13 @@
+.test-container
+{
+    
+}
+.test-timer{
+    display: flex;
+    color:#081240;
+    font-size: 1.8em;
+    font-weight: bold;
+    padding: 0.1em;
+    justify-content: center;
+    align-items: center;
+}

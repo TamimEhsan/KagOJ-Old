@@ -1,0 +1,41 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+#root{
+    height: 100vh;
+
+
+}
+.App{
+    height: 100%;
+}
+
+
+.homepage-main{
+    height: 100%;
+    
+}
+
+.hide-for-mobile {
+    @include breakpoint-down(medium){
+      display: none;
+    }
+  }
+  
+  .hide-for-desktop {
+    @include breakpoint-up(large){
+      display: none;
+    }
+  }
+

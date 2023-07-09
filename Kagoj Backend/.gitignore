@@ -1,0 +1,7 @@
+.idea
+.vscode
+node_modules
+.env
+file/input
+file/output
+file/submissions

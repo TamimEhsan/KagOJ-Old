@@ -1,0 +1,104 @@
+.right-main-container {
+  background-color: #f3f7fd;
+  height: 100vh;
+  overflow-y: scroll;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 4%;
+}
+.achievement-header {
+  margin-top: -20px;
+}
+
+.achievement-title {
+  font-weight: bold;
+  color: rgba(37, 193, 108, 1);
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.achievement-button {
+  background-color: rgba(37, 193, 108, 1);
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 3px;
+  transition: all 300ms ease-in-out;
+}
+.achievement-button:hover {
+  opacity: 0.7;
+}
+
+.achievement-score-heading {
+  font-weight: bold;
+  color: rgba(37, 193, 108, 1);
+  font-size: 1.4em;
+  margin-top: 20px;
+}
+
+.achievement-icon {
+  margin-left: auto;
+}
+
+.badge-container {
+  border-radius: 30px;
+  background: white;
+  padding-bottom: 30px;
+  box-shadow: 0 0px 100px 0 rgba(0, 0, 255, 0.1);
+  height: 220px;
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #94a2bf44;
+  margin-top: 10px;
+}
+
+.badge-title {
+  text-align: center;
+  font-size: 1.1em;
+  margin-top: 10px;
+
+  font-weight: 500;
+  padding: 0px 20px;
+}
+
+@media (max-width: 1540px) {
+  .badge-title {
+    font-size: 15px;
+  }
+}
+@media (max-width: 1400px) {
+  .badge-title {
+    padding: 0px 10px;
+  }
+}
+@media (max-width: 1280px) {
+  .badge-title {
+    margin-top: 20px;
+  }
+
+  .right-pan-grid {
+    justify-content: center;
+  }
+}
+
+.badge-label {
+  width: 100%;
+  text-align: center;
+}
+.badge {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  font-size: 1.2em;
+  font-weight: bolder;
+  line-height: 50px;
+  border: solid;
+  border-width: 7px;
+  padding: 10px;
+  border-radius: 50%;
+  height: 84px;
+  text-align: center;
+  width: 84px;
+}

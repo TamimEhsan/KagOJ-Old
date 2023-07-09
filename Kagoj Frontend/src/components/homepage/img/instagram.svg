@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="142" height="142" viewBox="0 0 142 142">
+  <defs>
+    <filter id="Ellipse_85" x="0" y="0" width="142" height="142" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#2580ea" flood-opacity="0.078"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="instagram" transform="translate(-342 -8239)">
+    <g transform="matrix(1, 0, 0, 1, 342, 8239)" filter="url(#Ellipse_85)">
+      <circle id="Ellipse_85-2" data-name="Ellipse 85" cx="41" cy="41" r="41" transform="translate(30 27)" fill="#fff"/>
+    </g>
+    <path id="Icon_awesome-instagram" data-name="Icon awesome-instagram" d="M21.178,12.554A10.857,10.857,0,1,0,32.035,23.411,10.84,10.84,0,0,0,21.178,12.554Zm0,17.916a7.059,7.059,0,1,1,7.059-7.059,7.071,7.071,0,0,1-7.059,7.059ZM35.012,12.11a2.532,2.532,0,1,1-2.532-2.532A2.527,2.527,0,0,1,35.012,12.11ZM42.2,14.68c-.161-3.392-.935-6.4-3.421-8.873S33.3,2.557,29.909,2.387c-3.5-.2-13.976-.2-17.472,0-3.383.161-6.388.935-8.873,3.411S.314,11.278.144,14.671c-.2,3.5-.2,13.976,0,17.472.161,3.392.935,6.4,3.421,8.873s5.481,3.251,8.873,3.421c3.5.2,13.976.2,17.472,0,3.392-.161,6.4-.935,8.873-3.421s3.251-5.481,3.421-8.873c.2-3.5.2-13.966,0-17.462ZM37.686,35.894a7.146,7.146,0,0,1-4.025,4.025c-2.788,1.106-9.4.85-12.483.85s-9.7.246-12.483-.85A7.146,7.146,0,0,1,4.67,35.894c-1.106-2.788-.85-9.4-.85-12.483s-.246-9.7.85-12.483A7.146,7.146,0,0,1,8.7,6.9c2.788-1.106,9.4-.85,12.483-.85s9.7-.246,12.483.85a7.146,7.146,0,0,1,4.025,4.025c1.106,2.788.85,9.4.85,12.483S38.791,33.116,37.686,35.894Z" transform="translate(392.005 8283.763)" fill="#2580ea"/>
+  </g>
+</svg>
