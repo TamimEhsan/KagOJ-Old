@@ -66,7 +66,7 @@ export const login=(data,dispatcher,history)=>{
             console.log("vallage na mara jabo");
             cookies.set('token',res.data.token,{ path: '/', maxAge: COOKIE_AGE })
             checkAuth(dispatcher)
-            history.push('/lang/en/level/1')
+            history.push('/course')
             setLoading(false)
             showToast('Logged in successfully')
         }else{

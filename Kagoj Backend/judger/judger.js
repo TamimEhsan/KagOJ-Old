@@ -74,7 +74,8 @@ function execute(command) {
     const verdicts = [];
     for(let i=0;i<test_id.length;i++){
       try{
-        const run = await execute(`echo 19021999 | sudo -S  ./judger/libjudger.so --max_cpu_time=100 --max_real_time=1000 --max_memory=130023424 --exe_path=main --input_path=file/input/${test_id[i]}.in --output_path=judger/output.out --error_path=judger/error.out `);
+        let pass = process.env.OS_PASS;
+        const run = await execute(`echo ${pass} | sudo -S  ./judger/libjudger.so --max_cpu_time=100 --max_real_time=1000 --max_memory=130023424 --exe_path=main --input_path=file/input/${test_id[i]}.in --output_path=judger/output.out --error_path=judger/error.out `);
         console.log("Runtime successfull");
         // console.log(run);
         
