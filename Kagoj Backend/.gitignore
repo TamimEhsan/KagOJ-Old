@@ -2,6 +2,11 @@
 .vscode
 node_modules
 .env
-file/input
-file/output
-file/submissions
+*.in
+!file/input/1.in
+!file/input/2.in
+*.out
+!file/output/1.out
+!file/output/2.out
+*.cpp
+!file/submissions/1.cpp
