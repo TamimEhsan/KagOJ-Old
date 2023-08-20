@@ -2,8 +2,6 @@
 
 # KagOJ
 
-
-
 ## How to start
 
 #### Installation
@@ -15,9 +13,10 @@ The backend only runs in linux environment. So either open with ubuntu, or if yo
 
 #### Start Backend
 
-Then go into `Kagoj/Kagoj Backend` 
+Then go into `Kagoj/Kagoj Backend`
 
 create a `.env` file. And populate with the followings
+
 ```
 PORT=3005
 DATABASE_URL=DATABASE_URL
@@ -33,16 +32,13 @@ npm i
 npm run dev
 ```
 
-
-
 #### Start Frontend
 
-Then go into `Kagoj/Kagoj Frontend` 
+Then go into `Kagoj/Kagoj Frontend`
 
-and install dependencies and then start node server
+and install dependencies and then start node server.
 
 ```
 npm i --force
 npm start
 ```
-
